@@ -17,15 +17,17 @@ Time spent: **10** hours spent in total
     - Enter a comment with a length of over 64 kb that contains JavaScript code to be executed
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/32299)
-### 2. (Required) Vulnerability Name or ID
+### 2. (Required) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Vulnerability types: Cross-Site Scripting
+    - Tested in version: 4.2
+    - Fixed in version: 4.4.1
+  - [ ] GIF Walkthrough: <img src="xss_link.gif" alt="Demonstrating the vulnerability">
+  - [ ] Steps to recreate:
+    - Log in as an administrator
+    - Enter a comment containing code to be injected via a stylesheet or template name
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Link 1](https://core.trac.wordpress.org/changeset/36185)
 ### 3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
