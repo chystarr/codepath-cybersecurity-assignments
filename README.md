@@ -53,7 +53,7 @@ GIFs created with [Kap](https://getkap.co/).
 
 ## Notes
 
-It was sometimes challenging to determine what circumstances and permissions need to be in place for a vulnerability to be exploitable.
+It was sometimes challenging to determine what circumstances and permissions needed to be in place for a vulnerability to be exploitable.
 
 ## License
 
