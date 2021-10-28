@@ -6,7 +6,7 @@ Time spent: **10** hours spent in total
 
 ## Pentesting Report
 
-### 1. (Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
+### 1. WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
@@ -17,7 +17,7 @@ Time spent: **10** hours spent in total
     - Enter a comment with a length of over 64 kb that contains JavaScript code to be executed
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/32299)
-### 2. (Required) WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
+### 2. WordPress  3.7-4.4 - Authenticated Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
@@ -28,48 +28,32 @@ Time spent: **10** hours spent in total
     - Enter a comment containing code to be injected via a stylesheet or template name
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/changeset/36185)
-### 3. (Required) Vulnerability Name or ID
+### 3. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough: <img src="authenticated_stored_xss.gif" alt="Demonstrating the vulnerability">
+  - [ ] Steps to recreate:
+    - Log in as a user who has permission to make posts
+    - Using the Text (not Visual) post editing mode, compose a post including HTML code that contains JavaScript code to be executed within the post
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 4. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 5. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+    - [Link 1](https://core.trac.wordpress.org/changeset/33359)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+No additional assets were used.
 
 ## Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIFs created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+It was sometimes challenging to determine what circumstances and permissions need to be in place for a vulnerability to be exploitable.
 
 ## License
 
