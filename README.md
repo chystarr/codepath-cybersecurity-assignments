@@ -1,6 +1,6 @@
 # Project 9 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **5.5** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -17,17 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: Session Hijacking/Fixation
+Vulnerability #1: SQL Injection
 
-Description:
+Description: When an apostrophe is included in the id parameter of the URL for a salesperson page, a "database query failed" message can be displayed. This indicates that the input here is not being sanitized before being used in an SQL query, making this part of the website vulnerable to SQL injection.
 
 <img src="blue-vuln1.gif">
-
-Vulnerability #2: __________________
-
-Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
@@ -52,13 +46,7 @@ Description: This vulnerability allows users to use URL manipulation to view sal
 
 <img src="red-vuln1.gif">
 
-Vulnerability #2: __________________
-
-Description:
-
-<img src="red-vuln2.gif">
-
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+No particular challenges were encountered.
