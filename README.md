@@ -6,7 +6,7 @@
 
 ### 1. WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types: Cross-Site Scripting
+    - Vulnerability types: Cross-Site Scripting (Stored)
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: <img src="xss_comment.gif" alt="Demonstrating the vulnerability">
@@ -28,7 +28,7 @@
     - [Link 1](https://core.trac.wordpress.org/changeset/36185)
 ### 3. WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: 
-    - Vulnerability types:
+    - Vulnerability types: Cross-Site Scripting (Stored)
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: <img src="authenticated_stored_xss.gif" alt="Demonstrating the vulnerability">
