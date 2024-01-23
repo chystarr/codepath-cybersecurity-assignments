@@ -25,7 +25,7 @@ Description: When an apostrophe is included in the id parameter of the URL for a
 
 Vulnerability #1: Username Enumeration
 
-Description: The error message that is shown upon entering an incorrect password is located in a span element with a class name that differs based on whether or not the entered username is incorrect. The class name is "failed" for an incorrect username and "failure" for a correct one. This discrepancy could make it easier for for hackers to know when an attempt at username enumaeration is successful.
+Description: The error message that is shown upon entering an incorrect password is located in a span element with a class name that differs based on whether or not the entered username is incorrect. The class name is "failed" for an incorrect username and "failure" for a correct one. This discrepancy could make it easier for hackers to know when an attempt at username enumeration is successful.
 
 <img src="green-vuln1.gif">
 
